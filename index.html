@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fotos de Gatinhos</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>gatinhos aleatórios</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Fotos de Gatinhos 🐱</h1>
-        <img id="catImage" src="" alt="Foto de um gatinho">
-        <br>
-        <button onclick="getCatImage()">Trocar Foto</button>
+    <div id="app">
+        <header>
+            <h1>Imagem aleatória de gatinhos</h1>
+        </header>
+        <main>
+            <button id="get-cat-btn">GATINHO ALEATÓRIO</button>
+            <ul id="cats-list"></ul>
+        </main>
     </div>
-    <script src="script.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
