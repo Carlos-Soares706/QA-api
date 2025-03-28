@@ -1,0 +1,16 @@
+{
+  "name": "qa-api",
+  "version": "1.0.0",
+  "description": "Este é um aplicativo simples para exibir fotos aleatórias de gatinhos usando a [The Cat API](https://thecatapi.com/). O aplicativo possui um layout responsivo e permite ao usuário clicar em um botão para carregar uma nova imagem de gatinho.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server --port=8080"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
